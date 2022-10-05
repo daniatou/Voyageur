@@ -81,6 +81,7 @@ aside {
     border-radius: 5px;
 }
 
+
 .article,
 aside {
     display: inline-block;
@@ -129,4 +130,25 @@ aside {
 
 .section3 li {
     color: #852424;
+}
+
+@media (max-width: 768px) {
+
+    .article,
+    aside {
+        width: 100%;
+    }
+
+    aside {
+        margin: auto;
+    }
+
+    header {
+        width: 100%;
+    }
+
+    nav ul li {
+        padding: 3px;
+    }
+
 }
