@@ -46,11 +46,46 @@ nav .active a {
     text-decoration: underline;
 }
 
+
 .container {
     width: 100%;
-    margin: 40px auto 40px auto;
-    padding: 40px;
+    margin: 20px auto 40px auto;
+    padding: 0 0px 40px 40px;
     border-bottom: 1px dashed;
+}
+
+.baniere {
+    background-image: url(images/banniere.svg);
+    height: 200px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    width: 95%;
+    position: relative;
+
+}
+
+.baniere-text {
+    width: 100%;
+    background-color: rgba(188, 188, 188, 0.299);
+    position: absolute;
+    bottom: 0;
+    height: 50px;
+}
+
+.baniere-text p {
+    /* position: absolute;
+    top: 10px; */
+    margin-top: 20px;
+}
+
+.baniere-text button {
+    background-color: #852424;
+    color: white;
+    float: right;
+    padding: 10px 20px 10px 20px;
+    border: none;
+    border-radius: 4px;
+    margin-top: -30px;
 }
 
 .article {
